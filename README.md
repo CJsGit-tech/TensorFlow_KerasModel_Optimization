@@ -10,14 +10,14 @@ Optimize machine learning models: https://www.tensorflow.org/model_optimization 
 
 ### Results
 Model Size Reduction
-<img source='images/ResNet.png'>
+<img src='images/ResNet.png'>
 
 Infernce Time and Model Loading Time
-<img source='images/ResNet2.png'>
+<img src='images/ResNet2.png'>
 
 <b>Note: <br> While I was researching and implementing optimization techniques, I realized that "Running a TFLite Model using PC or Laptop CPUs can result in very very very poor inference time performance!"</b> <br>
 <b><i>It seems to be that TensorFlow Lite models are designed to run on Mobile CPUs and other specific hardware. Therefore, if one tries to make an inference on PC CPUs, you get terrible results!</i></b>
 
 <br>
 TF Lite Model Inference results
-<img source='images/CM.png'>
+<img src='images/CM.png'>
